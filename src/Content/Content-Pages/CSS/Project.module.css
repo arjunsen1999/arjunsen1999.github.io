@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    /* border: 1px solid blue; */
+    padding: 30px 20px 20px;
+}
+
+.projectPage{
+    width:100%;
+    /* border: 1px solid white; */
+}
