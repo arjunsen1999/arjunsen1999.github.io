@@ -7,6 +7,7 @@ import ContentCSS from "./Content.module.css";
 import { HamburgerIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
 import { FontentAPI } from '../ContextApp/Fontent';
 import Skills from './Content-Pages/Skills';
+import Github from '../components/github/Github';
 
 export default function Content() {
   let {showSideBarClick} = useContext(FontentAPI);
@@ -17,6 +18,7 @@ export default function Content() {
             <Home />
             <About />
             <Skills />
+            <Github />
             <Project />
             <Contact />
         </div>

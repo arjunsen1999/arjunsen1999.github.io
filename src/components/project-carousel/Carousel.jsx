@@ -5,7 +5,7 @@ import Cards from '../Cards/Cards';
 export default function Carousel() {
   let projects = [
     {
-      poster : "./Project-images/jioMart.png",
+      poster : "./images/jioMart.png",
       name : "jio-mart.com Clone",
       description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corporis veniam adipisci animi sequi repellat dolore aperiam itaque facere distinctio.",
       techStack : [
@@ -18,7 +18,7 @@ export default function Carousel() {
       live : "https://jio-mart-arjunsen.netlify.app/"
     },
     {
-      poster : "./Project-images/appleTv.png",
+      poster : "./images/appleTv.png",
       name : "Apple-Tv.com Clone",
       description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corporis veniam adipisci animi sequi repellat dolore aperiam itaque facere distinctio.",
       techStack : [
@@ -31,7 +31,7 @@ export default function Carousel() {
       live : "https://the-great-arjunsen1999-site.netlify.app/"
     },
     {
-      poster : "./Project-images/cultFit.png",
+      poster : "./images/cultFit.png",
       name : "Cult.fit Clone",
       description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corporis veniam adipisci animi sequi repellat dolore aperiam itaque facere distinctio.",
       techStack : [
