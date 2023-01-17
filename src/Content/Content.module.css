@@ -6,8 +6,8 @@ overflow-y: scroll;
 position: relative;
 transition: all 0.3s linear;
 scroll-behavior: smooth;
-/* for content page background change */
-background-color: #0B0C10;
+/* for content page background change #0B0C10*/
+background-color: white; 
 }
 
 /* @media screen and (max-width : 738px) {
@@ -17,7 +17,7 @@ background-color: #0B0C10;
 } */
 #burger{
    background-color: transparent;
-   color: white;
+   color: black;
    position: fixed;
    top: 20px;
    right: 20px;

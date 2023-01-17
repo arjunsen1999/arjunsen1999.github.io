@@ -5,6 +5,9 @@ export default function SkillIcons(props) {
     <>
         <div className={SkillIconsCSS.icons}>
             <img src= {props.img} alt="" />
+            <div className={SkillIconsCSS.name} >
+            <h3>{props.name}</h3>
+          </div>
         </div>
     </>
   )

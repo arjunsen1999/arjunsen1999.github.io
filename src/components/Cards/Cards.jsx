@@ -1,5 +1,8 @@
+import { Avatar, Box, Button, IconButton, Image, Stack, Text, WrapItem } from '@chakra-ui/react'
 import React, { useEffect } from 'react'
 import CardsCSS from "./Cards.module.css"
+import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
+import Skillcons from "../SkillIcons/SkillIcons"
 // import Bounce from 'react-reveal/Bounce';
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
@@ -20,17 +23,15 @@ export default function Cards(props) {
             <div className={CardsCSS.icons}>
                     {
                         props.techStack.map((ele) =>{
-                            return <div style={{minHeight : "40px"}}>
-                            <img src={ele.img} alt="" />
-                            <p>{ele.title}</p>
-                        </div>
+                            console.log(ele)
+                            return <Skillcons img = {ele.img} name={ele.title}/>                        
                         })
                     }
           
             </div>
             <div className={CardsCSS.buttorns}>
-                <a href={props.github}><button>GitHub</button></a>
-                <a href={props.live}><button>LIVE</button></a>
+                <a target={"_blank"} href={props.github}><button>GitHub</button></a>
+                <a target={"_blank"} href={props.live}><button>LIVE</button></a>
             </div>
         </div>
     </div>

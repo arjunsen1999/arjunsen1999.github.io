@@ -11,12 +11,12 @@
     /* border: 1px solid white; */
 }
 .greeting{
-    color: white;
+    color: black;
     margin-bottom: 10px;
     font-size: 25px;
 }
 .title{
-    color: white;
+    color: black;
     margin-bottom: 10px;
     font-size: 40px;
 }
@@ -26,12 +26,13 @@
 }
 
 .description{
-    color: #ACAEA8;
+    color: black;
     margin-bottom: 10px;
+    font-size: 18px;
 }
 .button{
     cursor: pointer;
-    color: #ACAEA8;
+    color: white;
     padding: 8px;
     border-radius: 20px;
     background-color: #333231;

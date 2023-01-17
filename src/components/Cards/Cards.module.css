@@ -3,12 +3,14 @@
     min-height : 450px;
     /* margin-right:20px; */
     margin: 0 15px;
-    background-color: rgba(11,12,18,0.8);
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-    border-top: 1px solid rgba(255,255,255,0.5);
-    border-left: 1px solid rgba(255,255,255,0.5);
+    background-color: rgb(21, 21, 21);
+    /* box-shadow: 10px 10px 10px rgba(0,0,0,0.5); */
+    /* border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5); */
     backdrop-filter: blur(5px);
     padding: 20px;
+    border: 1px solid rgb(0, 138, 90);
+    box-shadow: 1px 1px 6px rgb(7, 199, 132);
 }
 
 .bgImg{
@@ -19,6 +21,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* border: 5px solid white; */
+    border: 1px solid rgb(0, 138, 90);
+    box-shadow: 1px 1px 6px rgb(7, 199, 132);
 }
 
 .box{
@@ -38,30 +43,30 @@
 .icons{
     display : grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 5px 10px;
 }
 
-.icons > div{
+/* .icons > div{
     min-height: 40px;
-}
+} */
 
-.icons > div > img{
+/* .icons > div > img{
     width: 70%;
     margin-bottom: 5px;
     /* border: 1px solid white; */
-}
-.icons > div{
+/* } 
+/* .icons > div{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     /* border: 1px solid white; */
-    cursor: pointer;
-}
+   
 
-.icons > div > p{
+
+/* .icons > div > p{
     color: white;
-}
+} */
 /* @media screen and (max-width : 488px) {
     .box{
         grid-template-columns: 1fr;
@@ -99,10 +104,7 @@
 }
 
 @media screen and (max-width : 587px) {
-    .icons{
-        display: none;
-    }
-    .description{
-        display: none;
+    .box{
+        grid-template-columns: 1fr;
     }
 }

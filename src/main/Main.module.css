@@ -4,7 +4,7 @@
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 3.4fr;
-    background-color: #0F110F;
+    background-color: white;
     transition: all 0.5s linear;
 }
 

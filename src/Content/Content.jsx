@@ -8,13 +8,20 @@ import { HamburgerIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
 import { FontentAPI } from '../ContextApp/Fontent';
 import Skills from './Content-Pages/Skills';
 import Github from '../components/github/Github';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Content() {
+  React.useEffect(() => {
+    AOS.init({
+      duration: 800,
+    });
+  }, []);
   let {showSideBarClick} = useContext(FontentAPI);
   return (
     <>
         <div className={ContentCSS.container}>
-        <HamburgerIcon  id={ContentCSS.burger} color="white" onClick={() =>{showSideBarClick()}}/>
+        <HamburgerIcon  id={ContentCSS.burger} color="black" onClick={() =>{showSideBarClick()}}/>
             <Home />
             <About />
             <Skills />

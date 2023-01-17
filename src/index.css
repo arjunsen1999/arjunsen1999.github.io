@@ -7,14 +7,14 @@
   width: 0.8rem;
 }
 ::-webkit-scrollbar-track{
-  background-color: #222;
+  background-color: white;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: #E2AE1B;
+  background-color: black;
   border-radius: 1rem;
 }
 ::selection{
-  background-color:#E2AE1B ;
+  background-color:black ;
   color: white;
 }
 body{
@@ -25,4 +25,9 @@ body{
 html{
   transition: all 0.5s linear;
   scroll-behavior: smooth;
+}
+
+.entiti{
+  font-style: italic;
+  
 }
