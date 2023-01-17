@@ -9,12 +9,14 @@
 .aboutPage{
     width:100%;
     /* border: 1px solid white; */
+    /* border: 1px solid red; */
+    min-height: 100vh;
 }
 
 .content{
     width: 100%;
     margin-top: 20px;
-    /* border: 1px solid white; */
+    /* border: 1px solid black; */
     min-height: 200px;
     padding: 0px 20px 0px;
     display: grid;
@@ -76,13 +78,13 @@
         padding: 20px 100px;
     }
     .container{
-        min-height: 180vh;
+        min-height: 160vh;
         /* border: 1px solid red; */
     }
 }
 @media screen and (max-width : 950px) {
     .container{
-        min-height: 90vh;
+        min-height: 170vh;
     }
     .projectDes{
         padding: 20px 50px;
@@ -92,6 +94,12 @@
 
     .projectDes{
         padding: 20px 20px;
+    }
+}
+@media screen and (max-width : 480px) {
+
+    .container{
+        min-height: 190vh;
     }
 }
 @media screen and (max-width : 464px) {
@@ -108,27 +116,14 @@
 @media screen and (max-width : 428px) {
     .container{
         margin-bottom: 100px;
-        min-height: 120vh;
+        min-height: 200vh;
     }
 
 }
-
-@media screen and (max-width : 880px) {
+@media screen and (max-width : 369px) {
     .container{
-        min-height: 180vh;
+        min-height: 220vh;
     }
 
 }
 
-@media screen and (max-width : 540px) {
-    .container{
-        min-height: 180vh;
-    }
-
-}
-@media screen and (max-width : 442px) {
-    .container{
-        min-height: 230vh;
-    }
-
-}
