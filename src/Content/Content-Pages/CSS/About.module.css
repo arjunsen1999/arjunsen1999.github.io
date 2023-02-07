@@ -96,15 +96,16 @@
         padding: 20px 20px;
     }
 }
+
 @media screen and (max-width : 480px) {
 
     .container{
-        min-height: 190vh;
+        min-height: 140vh;
     }
 }
 @media screen and (max-width : 464px) {
     .container{
-        min-height: 220vh;
+        min-height: 140vh;
     }
     .projectDes{
         padding: 20px 40px;
@@ -120,9 +121,15 @@
     }
 
 }
-@media screen and (max-width : 369px) {
+@media screen and (max-width : 381px) {
     .container{
         min-height: 220vh;
+    }
+
+}
+@media screen and (max-width : 375px) {
+    .container{
+        min-height: 210vh;
     }
 
 }

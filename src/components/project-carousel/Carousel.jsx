@@ -9,16 +9,17 @@ export default function Carousel() {
       name : "Next-Food.com",
       description : "Next-Food.com is a E-commerce multicategory online shopping platform. The platform offers consumers a convenience of shopping from home, with a promise of great savings, free home delivery and no minimum order value.",
       techStack : [
-        {img : "https://cdn-icons-png.flaticon.com/512/174/174854.png", title : "HTML 5"},
-        {img : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png", title : "CSS 3"},
-        {img : "https://cdn.cdnlogo.com/logos/j/69/javascript.svg", title : "JavaScript"},
+        {img : "https://cdn-icons-png.flaticon.com/512/1126/1126012.png", title : "React"},
+        {img : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png", title : "Node"},
+        {img : "https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png", title : "Express"},
+        {img : "./images/mongodb.png", title : "MongoDB"}
       ],
       github : "https://github.com/Dhamisir/Freshly-Website-Clone",
       live : "https://sophisticated-legs-486.netlify.app/"
     },
     {
       poster : "./images/jioMart.png",
-      name : "jio-mart.com Clone",
+      name : "jio-mart.com",
       description : "jiomart.com is a E-commerce multicategory online shopping platform. The platform offers consumers a convenience of shopping from home, with a promise of great savings, free home delivery and no minimum order value.",
       techStack : [
         {img : "https://cdn-icons-png.flaticon.com/512/174/174854.png", title : "HTML 5"},
@@ -31,7 +32,7 @@ export default function Carousel() {
     },
     {
       poster : "./images/appleTv.png",
-      name : "Apple-Tv.com Clone",
+      name : "Apple-Tv.com",
       description : "Apple-TV is the video streaming platform. Where you can watch Movies.",
       techStack : [
         {img : "https://cdn-icons-png.flaticon.com/512/174/174854.png", title : "HTML 5"},
@@ -44,7 +45,7 @@ export default function Carousel() {
     },
     {
       poster : "./images/cultFit.png",
-      name : "Cult.fit Clone",
+      name : "Cult.fit",
       description : "cult.fit is a health and fitness website offering digital and offline experiences across fitness, nutrition, and mental well-being.",
       techStack : [
         {img : "https://cdn-icons-png.flaticon.com/512/174/174854.png", title : "HTML 5"},

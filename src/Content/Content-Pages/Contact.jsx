@@ -79,12 +79,12 @@ export default function Contact() {
                     /></span> <span>Raniganj, West Bengal, India</span></li>
               </ul>
           </div>
-          <form className={ContactCSS.emailForm} action="https://formspree.io/f/xeqwokjq" method='POST'>
+          <form className={ContactCSS.emailForm} action="https://formspree.io/f/xeqwokjq" method='POST' onSubmit={popout}>
             <input type="text" name="name" id="name" placeholder='Name' required/>
             <input type="email" name="email" id="email" placeholder='Email' required/>
             {/* <input type="text" name="projectName" id="project" placeholder='Project Name' /> */}
             <textarea type = "text" name = "message" id = "message" placeholder='Message' required/>
-            <button className={ContactCSS.send} onClick={popout}>Send <FaLocationArrow /></button>
+            <button className={ContactCSS.send}>Send <FaLocationArrow /></button>
           </form>
     </div>
  
