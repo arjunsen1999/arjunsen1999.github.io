@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(----font-roboto);
+  background-color: #020E0F;
+}
+
+
+
+.dancing-script{
+  font-family: var(--font-Dancing-Script);
+}
+
+.skill-gradient {
+  background: linear-gradient(148deg, rgba(2, 14, 15, 0) 0%, rgba(2, 14, 15, 0.945) 44%);
+}
+
+
+/* Styling the scrollbar */
+/* Set width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  height: 10px; /* Height of the scrollbar */
+}
+
+/* Styling the track */
+/* Set the background color of the track */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Background color of the track */
+}
+
+/* Styling the thumb */
+/* Set the color and border radius of the thumb */
+::-webkit-scrollbar-thumb {
+  background-color: cyan; /* Color of the thumb */
+  border-radius: 5px; /* Border radius of the thumb */
+}
+
+/* Hover effect on the thumb */

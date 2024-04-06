@@ -1,0 +1,48 @@
+export const project_section_heading = "Webfolio: Showcase of Works";
+export const project = [
+    {
+      id: 5,
+      name: "app.trycomeata.com",
+      desc: "Comeata is the simple, all-in-one food management platform built to help you scale.",
+      imageUrl: "/assets/comeata.png",
+      tech_stack: ["Next.js", "Tailwind", "Shadcn", "React-Query", "directus"],
+      githubLink: "",
+      liveLink: "https://app.trycomeata.com/",
+    },
+    {
+      id: 4,
+      name: "saley.agpro.co.in",
+      desc: "Saley.agpro.co.in optimizes business operations with intuitive management tools, enhancing organization, communication, and productivity for streamlined performance.",
+      imageUrl: "/assets/saley.png",
+      tech_stack: ["Next.js", "Tailwind", "Shadcn", "directus"],
+      githubLink: "",
+      liveLink: "https://saley.agpro.co.in/",
+    },
+    {
+      id: 3,
+      name: "districts.constitutionofindia-karnataka.in",
+      desc: "Districts.constitutionofindia-karnataka.in showcases Karnataka's governmental districts, providing comprehensive information on each area for effective governance and public understanding.",
+      imageUrl: "/assets/gov.png",
+      tech_stack: ["Next.js", "Tailwind", "Shadcn", "directus"],
+      githubLink: "",
+      liveLink: "https://www.districts.constitutionofindia-karnataka.in",
+    },
+    {
+      id: 2,
+      name: "aizones.io",
+      desc: "aizones: Leading source for AI tools and news, empowering enthusiasts with cutting-edge technologies and insightful updates in the field.",
+      imageUrl: "/assets/aizones.png",
+      tech_stack: ["React", "Chakra UI", "Node.js", "Express", "MongoDB"],
+      githubLink: "",
+      liveLink: "https://www.aizones.io/",
+    },
+    {
+      id: 1,
+      name: "Next-Food.com",
+      desc: "Next-Food.com is a E-commerce multicategory online shopping platform. The platform offers consumers a convenience of shopping from home, with a promise of great savings, free home delivery and no minimum order value.",
+      imageUrl: "/assets/next-food.png",
+      tech_stack: ["React", "Chakra UI", "Node.js", "Express", "MongoDB"],
+      githubLink: "https://github.com/Dhamisir/Freshly-Website-Clone",
+      liveLink: "https://sophisticated-legs-486.netlify.app/",
+    },
+  ];
