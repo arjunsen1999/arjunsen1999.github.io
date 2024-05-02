@@ -22,12 +22,12 @@ export const skills = [
         {
           id: 4,
           skillName: "Nextjs",
-          skillIcon: "nextjs",
+          skillIcon: "next-icon",
         },
         {
           id: 5,
           skillName: "Reactjs",
-          skillIcon: "reactjs",
+          skillIcon: "react-icon",
         },
         {
           id: 6,
@@ -64,12 +64,12 @@ export const skills = [
         {
           id: 1,
           skillName: "Nodejs",
-          skillIcon: "nodejs",
+          skillIcon: "nodejs-icon",
         },
         {
           id: 2,
           skillName: "Expressjs",
-          skillIcon: "expressjs",
+          skillIcon: "express-icon",
         },
         {
           id: 3,
@@ -85,24 +85,24 @@ export const skills = [
         {
           id: 1,
           skillName: "Netlify",
-          skillIcon: "netlify",
+          skillIcon: "netlify-icon",
           width : 40,
           height : 40
         },
         {
           id: 2,
           skillName: "Versel",
-          skillIcon: "versel",
+          skillIcon: "versel-icon",
         },
         {
           id: 3,
           skillName: "AWS",
-          skillIcon: "aws",
+          skillIcon: "aws-icon",
         },
         {
           id: 4,
           skillName: "Firebase",
-          skillIcon: "firebase",
+          skillIcon: "firebase-icon",
           width : 40,
           height : 40
         },

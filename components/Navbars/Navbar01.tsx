@@ -18,10 +18,10 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
-        <HoveredLink href="/web-dev">Home</HoveredLink>
-        <HoveredLink href="/web-dev">About Me</HoveredLink>
-        <HoveredLink href="/web-dev">Skills</HoveredLink>
-        <HoveredLink href="/web-dev">Projects</HoveredLink>
+        <HoveredLink href="/">Home</HoveredLink>
+        <HoveredLink href="/about">About Me</HoveredLink>
+        <HoveredLink href="/skills">Skills</HoveredLink>
+        <HoveredLink href="/projects">Projects</HoveredLink>
         {/* <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
@@ -50,8 +50,8 @@ function Navbar({ className }: { className?: string }) {
             />
           </div>
         </MenuItem> */}
-        <HoveredLink href="/web-dev">Resume</HoveredLink>
-        <HoveredLink href="/web-dev">Contact</HoveredLink>
+        <HoveredLink href="/about">Resume</HoveredLink>
+        <HoveredLink href="/contact">Contact</HoveredLink>
       </Menu>
     </div>
   );

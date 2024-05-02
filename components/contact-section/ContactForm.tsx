@@ -11,7 +11,7 @@ export default function ContactForm() {
             type="text"
             placeholder="Name Surname"
             required
-            className="w-full py-3 px-4  bg-white rounded-lg"
+            className="w-full py-3 px-4  bg-white rounded-lg border-none focus:border focus:border-teal-500"
           />
           <input
             type="email"

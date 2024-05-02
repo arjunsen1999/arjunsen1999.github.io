@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import { description, designation, greeting, name } from "@/data/homepagedata";
+import AnimatedButton from "../buttons/AnimatedButton";
 // import Spline from '@splinetool/react-spline';
 
 
@@ -82,6 +83,7 @@ export default function HomeSection() {
         <div className="w-full pl-8">
           <p className="text-secondary dancing-script text-lg">{`</p>`}</p>
         </div>
+
 
         {/* ///////////////////////////////////////////////////////////////////////////////////// */}
       </div>
